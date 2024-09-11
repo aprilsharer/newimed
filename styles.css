@@ -51,7 +51,7 @@ main {
 
 .float-left {
   float: left;
-  width: 45%;
+  width: 100%;
   margin-right: 5%;
   border: 3px solid #2596be;
   padding: 10px;
@@ -99,7 +99,8 @@ h2 {
 h3 {
     font-family: fantasy;
     color: #be2596;
-	text-align: center
+	text-align: center;
+	font-size:150%;
 }
 
 p {
@@ -108,7 +109,8 @@ p {
     font-family: arial;
     color:#2596be;
 	padding: 10px;
-	padding-left:300px;
-	padding-right:300px;
+	padding-left:50px;
+	padding-right:50px;
 	border: medium;
+	float:right;
 }
