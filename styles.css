@@ -122,16 +122,12 @@ h3 {
 }
 
 h4{
-  font-family: "Thasadith", sans-serif;
-  font-weight: 600;
-  font-style: bold;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 	text-align: center;
-    font-size: 100%;
+    font-size: 200%;
     color:#2596be;
-	padding: 0px;
-	padding-left:0px;
-	padding-right:0px;
-	margin-top: 5px;
 }
 
 p { 
@@ -188,9 +184,7 @@ article {
     object-fit: cover;
 }
 
-.container {
-    padding: 20px;                 
-}
+
 
 h3 {
     margin-top: 10px;              
@@ -202,13 +196,6 @@ li {
     font-size: 16px               
 }
 
-.container {
-    display: flex;                
-    flex-direction: column;     
-    align-items: center;          
-    padding: 20px;                
-    background-color: #f9f9f9;   
-}
 
 ul {
     list-style-type: disc;        
@@ -298,4 +285,55 @@ audio {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
     width: 300px; 
 	align-content: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: flex-start; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+.item {
+    flex: 0 1 calc(50% - 10px); 
+    max-width: calc(50% - 10px); 
+    border: 6px solid #be2596; 
+    padding: 10px;
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 5px; 
+}
+
+.item img {
+    width: 100%; 
+    height: auto; 
+    max-width: 300px; 
+    margin: 5px auto; 
+    display: block; 
+}
+
+
+.item h4 {
+    margin-bottom: 5px; 
+}
+
+.item p {
+    margin-top: 0; 
+    margin-bottom: 10px; 
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.dialog {
+  display: none;
+}
+@media (min-width: 768px) {
+    .item {
+        flex: 0 1 calc(33.33% - 10px); 
+        max-width: calc(33.33% - 10px); 
+    }
 }

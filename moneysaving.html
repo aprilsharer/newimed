@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Satisfy&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+  <title>Welcome to Outnumbered Momma!</title>
+  
+</head>
+<body>
+<header>
+  <h1>The Outnumbered Momma</h1>
+  <h2>"Simple Ideas for the Busy Mom"</h2>
+</header>	
+
+<nav>
+  <a href="index.html" title="home">Home</a> 
+  <a href="recipes.html" title="Family-Friendly Recipes">Recipes</a>
+  <a href="learningfun.html" title="Learning Activities">Learning Activities</a>
+  <a href="moneysaving.html" title="Money Saving Tips">Money Saving Tips</a>
+  <a href="contact.html" title="Contact">Contact</a>
+</nav>	
+
+<h3>Money Saving Tips</h3>	
+<h3 style="font-size: 1.2em;" class="clearfix">&#128153; The Outnumbered Momma &#128153;</h3>
+
+<div class="container">
+  <div class="item">
+    <img src="images/snacks.jpg" alt="Snacks">
+	  <h4>Save Money on Snacks</h4>
+    <p>My boys go through snacks fast, and it use to take up a large portion of my grocery bill. I love the convience of prepackaged snacks, easpecially for packing in backpacks, but for $6 for an 8-pack of pretzel bags- no thank you! I can make 12-packs of pretzels from a $2 bag of pretzels. Now I know what you might be thinking, "I don't have time for that". I get it, it's an extra hassle, but would you take on a simple job that paid $10 for 10 minutes of work? Buying snacks in full sized packaging and creating your own snack packs can save you serious money. You could even try asking your kids to package the snacks for you the next time you hear, "I'm bored"&#128540  </p>
+  </div>
+ 
+  <div class="item">
+	  
+    <img src="images/grocery.jpg" alt="Meal Plan">
+	  <h4>Meal Plan</h4>
+    <p>This is hands-down been the most impactful way to cut down my family's spending. Having a meal plan each week helps you only buy what you need at the grocery store, and avoid eating out just out of desperation. Now don't get me wrong, I love the experience of eating out with my family and trying something new, but desperately stopping at Chic-Fil-A because there's nothing to cook at home, adds up quick. Having a meal plan for each week is a great strategy to save money at the grocery store, and avoid unnecessary spending.Plan your resturant visits intentially for the experience, not out of desperation!</p>
+  </div>
+	 <div class="item">
+		 <img src="images/elf.jpg" alt="Rewards">
+		 <h4>Use Cashback and Rewards</h4>
+    <p>Once you’ve mastered your monthly budget, you can take advantage of a cashback or rewards credit card. Many cards offer 2% or more back on all purchases! I personally use my credit card bills to fund all of my Amazon purchases, since I can use my credit card points to buy. Only do this if you are sure you can pay off the balance each month, because interest rates are way too high! </p>
+  </div>
+  <div class="item">
+	  <img src="images/box.jpg" alt="Look at Your Statements Often">
+	  <h4>Check your Statements Often!</h4>
+    
+    <p>Whether you primarily use a debit card, or credit card- check your accounts often. This will help you monitor your spending, and identify subscriptions you may want to cancel. It is also a great way to catch fraudulent behavior early on. I like to check my accounts weekly to make sure I’m on track to stay on budget for the month.If I'm overspending, I need to know while there is still time in the month to adjust! </p>
+  </div>
+  <div class="item">
+	  
+    <img src="images/fixcar.jpg" alt="No Spend Days">
+	  <h4>"No Spend Days"</h4>
+    <p>When was the last day that you didn’t make a single purchase? Having online shopping at our fingertips makes it tempting to buy something as soon as we think of it. What if you just left it in your cart and re-evaluated at the end of the week? Start off with one day a week that you won’t need to make any essential purchases and go the whole day without spending. Challenge yourself to increase your number of “no-spend” days per month. </p>
+  </div>
+	
+	 <div class="item">
+    <img src="images/thrift.jpg" alt="Be Thrifty">
+	  <h4>Be Thrifty</h4>
+    <p>Stop wasting money on buying brand new everything. Check out your local thrift store and you might be amazed with all the great finds that cost a fraction of what you would regulary spend. This does not just apply to clothes, the next time you're out shopping for something check the thrift store first!The satisfaction of a good find is such a great feeling. The environment, and your wallet will thank you!</p>
+  </div>
+</div>
+
+<div class="dialog" title="Tips for Saving Money">
+  <p>Set a realistic savings goal each year, divide by 12 and set-up a reoccuring savings transfer each month. </p>
+</div>
+
+<button id="open-dialog">Today's $$ Saving Tip</button>
+
+<footer>
+  <p>&copy; 2024 April Sharer. All rights reserved.</p>
+</footer>
+
+<script>
+  $(function() {
+    $("#open-dialog").click(function() {
+      $(".dialog").dialog();
+    });
+  });
+</script>
+
+</body> 
+</html>
+
+
