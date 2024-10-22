@@ -6,7 +6,7 @@ body {
   background-color: #f0f0f0;
 }
 
-/* Header and Navigation Styles */
+
 header {
   background-color: #2596be;
   color: white;
@@ -19,7 +19,7 @@ nav {
   background-color: #96be25;
   padding: 10px 0;
   display: flex;
-  flex-direction: row; /* Default layout for desktop */
+  flex-direction: row; 
   justify-content: center;
   gap: 20px;
 }
@@ -42,25 +42,25 @@ nav a:hover {
 /* Mobile Styles */
 @media (max-width: 767px) {
   .nav-links {
-    display: none; /* Hide navigation links by default */
+    display: none; 
     flex-direction: column; 
-    width: 100%; /* Full width */
-    background-color: #96be25; /* Match your nav background */
+    width: 100%; 
+    background-color: #96be25; 
   }
 
   nav.active .nav-links {
-    display: flex; /* Show links when nav is active */
+    display: flex; 
   }
 
   .hamburger {
-    display: block; /* Show hamburger icon */
+    display: block; 
     font-size: 30px;
     cursor: pointer;
     padding: 10px;
   }
 
   nav {
-    flex-direction: column; /* Stack items vertically */
+    flex-direction: column; 
   }
 
   .item {
@@ -77,7 +77,7 @@ nav a:hover {
   }
   
   .hamburger {
-    display: none; /* Hide hamburger icon on desktop */
+    display: none; 
   }
 }
 
@@ -299,7 +299,6 @@ footer {
   padding-bottom: 10px;
   background-color: #96be25;
   width: 100%; 
-  max-width: 900px; 
 }
 
 h4 {
