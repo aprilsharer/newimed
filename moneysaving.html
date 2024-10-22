@@ -20,14 +20,16 @@
 </header>	
 
 <nav>
-	<div class="hamburger" id="hamburger">&#9776;</div> <!-- Hamburger icon -->
+  <div class="hamburger" id="hamburger">&#9776;</div>
   <div class="nav-links" id="nav-links">
-  <a href="index.html" title="home">Home</a> 
-  <a href="recipes.html" title="Family-Friendly Recipes">Recipes</a>
-  <a href="learningfun.html" title="Learning Activities">Learning Activities</a>
-  <a href="moneysaving.html" title="Money Saving Tips">Money Saving Tips</a>
-  <a href="contact.html" title="Contact">Contact</a>
-</nav>	
+    <a href="index.html" title="home">Home</a>
+    <a href="recipes.html" title="Family-Friendly Recipes">Recipes</a>
+    <a href="learningfun.html" title="Learning Activities">Learning Activities</a>
+    <a href="moneysaving.html" title="Money Saving Tips">Money Saving Tips</a>
+    <a href="contact.html" title="Contact">Contact</a>
+  </div>
+</nav>
+
 
 <h3>Money Saving Tips</h3>	
 
@@ -73,21 +75,13 @@
   <p>Set a realistic savings goal each year, divide by 12 and set-up a reoccuring savings transfer each month. </p>
 </div>
 
-<button id="open-dialog">Today's $$ Saving Tip</button>
-
 <footer>
   <p>&copy; 2024 April Sharer. All rights reserved.</p>
 </footer>
 
-<script>
-  $(function() {
-    $("#open-dialog").click(function() {
-      $(".dialog").dialog();
-    });
-  });
-</script>
+
 	<script>
-    document.getElementById('hamburger').addEventListener('click', function() {
+  document.getElementById('hamburger').addEventListener('click', function() {
       const nav = document.querySelector('nav');
       nav.classList.toggle('active'); 
     });
