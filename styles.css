@@ -65,23 +65,23 @@ main {
   }
   
   .hamburger {
-    display: block; /* Show hamburger icon on mobile */
+    display: block; 
     font-size: 30px;
     cursor: pointer;
     padding: 10px;
   }
 
   nav {
-    flex-direction: column; /* Stack navigation links vertically on mobile */
-    display: none; /* Initially hide the nav */
+    flex-direction: column; 
+    display:block;
   }
   
   nav.active {
-    display: flex; /* Show nav when active */
+    display: block; 
   }
 }
 
-/* Main content area */
+
 main {
   padding: 5px;
 }
@@ -298,33 +298,37 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px auto;
-  padding: 20px;
+  margin: 10px auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
   background-color: #96be25;
-  border: 5px solid #be2596;
-  width: 100%; /* Full width */
-  max-width: 600px; /* Limit the max width */
+  width: 100%; /
+  max-width: 900px; 
+	border-radius: 20px;
 
 }
 
 h4 {
-  margin-bottom: 10px; /* Spacing above trivia */
+  margin-bottom: 10px; 
 }
 
 .question {
   font-weight: bold;
+	color:#be2596;
   margin: 10px 0;
-  text-align: center; /* Center text */
+  text-align: center; 
 }
 
 .answer {
   margin: 5px 0;
   padding: 5px;
-  border: 1px solid #be2596; /* Optional: add a border to answers */
-  border-radius: 5px; /* Rounded corners for answers */
-  cursor: pointer; /* Change cursor on hover */
+  border: 1px solid #be2596; 
+  border-radius: 5px;
+  cursor: pointer; 
+	color:#2596be;
+	font-weight: bold;
 }
 
 .answer:hover {
-  background-color: #f0f0f0; /* Change background on hover */
+  background-color: #f0f0f0; 
 }
